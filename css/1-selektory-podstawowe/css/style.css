@@ -1,0 +1,30 @@
+*{
+    color:coral;
+}
+
+#main-text{
+    color:blueviolet;
+    font-size: 25px;
+}
+
+.decor-text{
+    text-transform:uppercase;
+}
+
+div.decor-text{
+    color:lawngreen;
+    background-color:thistle;
+}
+
+ul li{
+    color:black;
+}
+
+ul li.active{
+    font-size:30px;
+}
+
+ul li.active + li {
+    margin-top:60px;
+    font-style:italic;
+}
