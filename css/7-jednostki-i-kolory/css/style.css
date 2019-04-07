@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html{
+    font-size:15px;
+}
+
+.size-px{
+    width:400px;
+    height:200px;
+    background:rgb(29,214,143);
+}
+
+.size-pr{
+    width:60%;
+    height:200px;
+    background:lightsteelblue
+}
+
+/* szerokość elementu jest elastyczna i zmienia się w zaleności od wysokości */
+.size-vh{
+    width:50vh;
+    height:200px;
+    background:gray;
+}
+/* wysokośc elementu jest elastyczna */
+.size-vw{
+    width:50vw;
+    height:200px;
+    background:rebeccapurple;
+}
+
+.em{
+    font-size:30px;
+}
+
+.em p{
+    font-size:2em;
+}
+
+/* 1rem=1*font size elementu html */
+}
+
+.rem p{
+    font-size: 1rem;
+}
