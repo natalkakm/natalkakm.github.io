@@ -1,0 +1,21 @@
+p{
+    background-color:silver!important;
+}
+/* 100 */
+#tekst{
+    background-color:violet;
+    font-size:100px;
+}
+
+/* 12 */
+body p.tekst {
+    background-color:green;
+    font-size: 40px;
+
+}
+
+/* 1 */
+p{
+    background-color:yellow;
+    font-size:25px;
+}
