@@ -29,7 +29,10 @@ html{
 .size-vw{
     width:50vw;
     height:200px;
-    background:rebeccapurple;
+    background:rgba(4,5,1,.4);
+    position:relative;
+    top:-60px;
+    left:34px;
 }
 
 .em{
