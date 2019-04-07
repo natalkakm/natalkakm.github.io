@@ -1,21 +1,35 @@
+*{
+    margin-bottom:10px;
+}
 form{
     background-color:#213b50;
     width:50%;
     color:white;
     padding:25px;
     font-size:20px;
-
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 [type]{
     background-color:#2b4a64;
+    width:50%;
     border:none;
     height:30px;
+    color:white;
 }
 
-#city{
+select{
     background-color:#2b4a64;
-    width:auto;
+    width:50%;
+    color:white;
+    border-radius:none;
+    border:none;
+    height:30px;
+    font-size:20px;
+
+
+
 }
 
 [type~="radio"]{
@@ -53,6 +67,11 @@ input:focus{
     color:#ffffff;
 }
 
+#message:focus{
+    border: 1px #ffffff;
+    background-color:#4e708c;
+    color:#ffffff;
+}
 #agreement{
     text-align:left;
     width:auto;
