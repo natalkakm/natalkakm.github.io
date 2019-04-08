@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <form action="https://formspree.io/natalia.katarzyna.kaminska@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="imię">
+            <br>
+            <br>
+            <input type="text" name="surname" placeholder="nazwisko">
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="adres e-mail">
+            <br>
+            <br>
+            <input type="numer" name="phone" placeholder="numer telefonu">
+            <br>
+            <p>Wybierz płeć:</p>
+            <input type="radio" name="gender">Mężczyzna</input>
+            <br>
+            <input type="radio" name="gender">Kobieta</input>
+            <br>
+            <p>Wybierz miasto:</p>
+            <select name="select">
+                <option value="Kraków" selected>Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Inne">Inne</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="checkbox" name="agreement">
+            Wyrazam zgodę na wykorzystanie <br>moich danych osobowych (...)
+            <br>
+            <textarea maxlength=1200 name="message" placeholder="napisz wiadomość">
+        </textarea>
+            <br>
+
+
+            <input type="submit" name="submit">
+        </form>
+    </div>
+</body>
+
+</html>
