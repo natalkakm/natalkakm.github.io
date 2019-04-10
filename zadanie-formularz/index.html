@@ -24,9 +24,9 @@
             <input type="number" name="phone" placeholder="numer telefonu">
             <br>
             <p>Wybierz płeć:</p>
-            <input type="radio" name="gender">Mężczyzna
+            <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
             <br>
-            <input type="radio" name="gender">Kobieta
+            <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
             <br>
             <p>Wybierz miasto:</p>
             <select name="select">
@@ -37,8 +37,8 @@
             <br>
             <br>
 
-            <input type="checkbox" name="agreement">
-            Wyrazam zgodę na wykorzystanie <br>moich danych osobowych (...)
+            <input type="checkbox" name="agreement" id="agreement"><label for="agreement">
+            Wyrazam zgodę na wykorzystanie <br>moich danych osobowych (...)</label>
             <br>
             <textarea maxlength=1200 name="message" placeholder="napisz wiadomość"></textarea>
             <br>
