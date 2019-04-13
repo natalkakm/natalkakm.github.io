@@ -1,0 +1,18 @@
+#strawberry-left{
+    float:left;
+    width:300px;
+}
+
+#strawberry-right{
+    float:right;
+    width:300px;
+}
+
+p:last-child{
+    background-color:yellow;
+    clear:both;
+}
+
+#strawberry-left{
+    float:none;
+}

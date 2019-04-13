@@ -1,0 +1,31 @@
+#p1 {
+    background-color:blue;
+}
+
+#p2{
+    background-color: bisque;
+}
+
+#inline-elements p {
+    display:inline;
+}
+
+#inline-p1 {
+    background-color: blueviolet;
+}
+
+#inline-p2{
+    background-color: pink;
+}
+
+#inline-block-elements li {
+    display:inline-block;
+    width:100px;
+    height:300px;
+    margin:5px;
+    background-color: antiquewhite;
+}
+
+#display-none {
+    display:none;
+}
