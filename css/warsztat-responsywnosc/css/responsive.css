@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #222;
+	color: #eee;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+#gallery {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+figure {
+	display: inline-block;
+	width: 32%;
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+figure figcaption {
+	text-align: center;
+}
+
+figure img{
+	width: 100%;
+	border: 1% solid #444;
+}
+
+@media all and (min-width:992px) {
+    figure{
+		display:inline-block;
+		width: 32%;
+
+    }
+}
+
+@media all and (min-width:769px) and (max-width: 991px){
+    figure{
+        width:50%;
+        display:inline-block;
+
+    }
+}
+
+@media all and (max-width: 768px){
+    figure{
+        display:block;
+        width:100%;
+    }
+}
+
+
+#gallery{
+    font-size:0px;
+}
+
+header{
+	font-size:14px;
+}
+
+figcaption{
+	font-size:12px;
+}
