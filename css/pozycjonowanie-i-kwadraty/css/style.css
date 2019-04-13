@@ -19,19 +19,106 @@ background-color: white;
 .square{
     height:200px;
     width:200px;
-    color:red;
     border: solid black 1px;
-    position:relative;
+    position:absolute;
 }
 
 .round{
     height: 100px;
     width: 100px;
-    background-color:yellow;
     border:solid black 1px;
     border-radius:100%;
     position:relative;
     top:50px;
     left:50px;
+}
 
+#s1{
+    top:0px;
+    left:0px;
+    background-color:red;
+}
+
+#r1{
+    background-color:pink;
+}
+
+#s2{
+    top:0px;
+    left:200px;
+    background-color:blue;
+}
+
+#r2{
+    background-color:grey;
+}
+
+#s3{
+    top:0px;
+    right:0px;
+    background-color:green;
+}
+
+#r3{
+    background-color:violet;
+}
+
+#s4{
+    top:200px;
+    left:0px;
+    background-color:yellow;
+}
+
+#r4{
+    background-color:green;
+}
+
+#s5{
+    top:200px;
+    left:200px;
+    background-color: black;
+}
+
+#r5{
+    background-color: red;
+}
+
+#s6{
+    top:200px;
+    right:0px;
+    background-color: orange;
+}
+
+#r6{
+    background-color: blue;
+}
+
+#s7{
+    bottom:0px;
+    left:0px;
+    background-color: violet;
+}
+
+#r7{
+    background-color:orange;
+}
+
+#s8{
+    bottom:0px;
+    left:200px;
+    background-color: grey;
+}
+
+#r8{
+    background-color:yellow;
+}
+
+#s9{
+    bottom:0px;
+    right:0px;
+    background-color: pink;
+}
+
+#r9{
+    background-color: darkgray;
 }
