@@ -40,6 +40,11 @@ a{
     padding: 1%;
 }
 
+.button:hover{
+    background-color: navy;
+    color:white;
+}
+
 #o-mnie{
     display: flex;
     align-items: center;
