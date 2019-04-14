@@ -46,14 +46,14 @@ h1{
 
 
 
-.button{
+.button, [type="submit"]{
     background-color:transparent;
     border: 2px solid navy;
     color:black;
     padding: 1%;
 }
 
-.button:hover{
+.button:hover, [type="submit"]:hover{
     background-color: navy;
     color:white;
 }
@@ -72,12 +72,16 @@ h1{
     align-items:center; */
 /* }  */
 
+#o-mnie{
+    padding-bottom:3%;
+    background-color:rgba(236, 235, 235, 0.24);
+
+}
 .o-mnie{
     display:flex;
     justify-content: space-around;
     flex-direction:column;
     align-items:center;
-    background-color:gray;
 }
 
 .o-mnie p{
@@ -102,4 +106,32 @@ h1{
 
 .portfolio img:hover{
 border-radius: 75%;
+}
+
+#kontakt{
+    text-align: center;
+}
+.kontakt{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 241, 243);
+    margin:10px;
+
+    /* width:40%; */
+}
+form{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+    margin:10px;
+
+}
+#form1{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    width:40%;
 }
