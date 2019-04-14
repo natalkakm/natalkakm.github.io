@@ -1,0 +1,52 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#header{
+    background: url('../img/header.jpg') center top no-repeat scroll;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+h1{
+    color:blue;
+}
+
+#nav{
+    display:flex;
+    background-color:blue;
+    justify-content:space-around;
+    padding-top:2%;
+    padding-bottom: 2%;
+    list-style-type: none;
+    
+}
+.menu{
+    color: white;
+    font-style: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    background-color:transparent;
+    border: 2px solid navy;
+    padding: 1%;
+}
+
+#o-mnie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ja{
+    border-radius: 100%
+}
