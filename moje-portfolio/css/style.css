@@ -1,9 +1,23 @@
+*{
+    box-sizing:border-box;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
+
+
 #header{
     background: url('../img/header.jpg') center top no-repeat scroll;
     background-size: cover;
+    
+}
+#header .main-header-content {
+    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,13 +44,12 @@ h1{
     font-style: bold;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .button{
     background-color:transparent;
     border: 2px solid navy;
+    color:black;
     padding: 1%;
 }
 
@@ -45,13 +58,48 @@ a{
     color:white;
 }
 
-#o-mnie{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 #ja{
-    border-radius: 100%
+    border-radius: 100%;
+    width:20%;
+}
+
+/* #o-mnie { */
+    /* height:100vh; */
+    /* display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    align-items:center; */
+/* }  */
+
+.o-mnie{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    align-items:center;
+    background-color:gray;
+}
+
+.o-mnie p{
+    text-align:center;
+    width:40%;
+}
+#portfolio{
+    text-align: center;
+}
+.portfolio{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.portfolio img{
+    height:25vh;
+    width:fixed;
+    transition: border-radius 3s linear 0s;
+}
+
+.portfolio img:hover{
+border-radius: 75%;
 }
