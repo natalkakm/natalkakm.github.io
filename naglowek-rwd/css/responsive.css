@@ -1,16 +1,46 @@
 @media (max-width:1170px){
+    body{
+        background: black;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
 
     #main {
         background: url("../img/man-2.jpg") center top no-repeat scroll;
-        background-size: cover;
-        width:70%;
+        height: 70%;
+    }
+
+    #text{
+        height:70%;
         display: flex;
         flex-direction:column;
         align-items: flex-end;
         justify-content: flex-start;
-    }
-
-    h1, h2{
+        position: relative;
         margin-right:4%;
+
     }
 }
+
+/* @media (max-width:992px){
+    body{
+        background: black;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main{
+        background: url("../img/man-1.jpg") top center no-repeat scroll;
+        height: 50%;
+        position: static;
+        
+    }
+
+    #text{
+        position: static;
+        
+    }
+} */

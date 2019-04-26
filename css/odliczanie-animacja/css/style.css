@@ -1,0 +1,56 @@
+
+div.number {
+    text-align: center;
+    font-size: 70px;
+    color: rgba(241, 9, 9, 0);
+    position: absolute;
+    left: 50%;
+    animation: odliczanie 1s;
+  
+  }
+  
+  div#ten{
+    animation-delay: 0s;
+    
+  }
+  div#nine{
+    animation-delay: 1s;
+   
+  }
+  div#eight{
+    animation-delay: 2s;
+    
+  }
+  div#seven{
+    animation-delay: 3s;
+  }
+  div#six{
+    animation-delay: 4s;
+  }
+  div#five{
+    animation-delay: 5s;
+  }
+  div#four{
+    animation-delay: 6s;
+  }
+  div#three{
+    animation-delay: 7s;
+  }
+  div#two{
+    animation-delay: 8s;
+  }
+
+  div#one{
+    animation-delay: 9s;
+  }
+
+  div#end{
+    animation-delay: 10s;
+  }
+  
+  
+  @keyframes odliczanie{
+    0% {color:  rgba(241, 9, 9, 0);}
+    50% {color:  rgba(241, 9, 9, 1);}
+    100% {color:  rgba(241, 9, 9, 0);}
+  } 

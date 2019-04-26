@@ -1,20 +1,26 @@
 body{
     font-family: Verdana,Geneva,sans-serif;
     box-sizing: border-box;
-    background-color: black;
+    overflow: hidden;
 }
 
 #main {
-    background: url("../img/man-1.jpg") center top no-repeat scroll;
+    background-image: url("../img/man-1.jpg");
     background-size: cover;
     height:600px;
+    width:100%;
+    position: absolute;
+    
+}
+#text{
+    background-color: none;
+    color:white;
+    height: 600px;
+    width: 100%;
+    position: absolute;
     display: flex;
     flex-direction:column;
     align-items: left;
     justify-content: center;
-    
-}
-h1, h2{
-    color:white;
-    margin-left:4%;
+    margin: 4%;
 }
