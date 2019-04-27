@@ -59,3 +59,17 @@ do {
     iter++;
     console.log(iter);
 } while ( iter < 10 )
+
+
+// przeskakiwanie do kolejnej iteracji
+
+for ( let b = 0; b<10; ++b ) {
+
+    if ( b == 5 ) {
+        continue;
+    } else {
+        console.log(b);
+    }
+
+    console.log("--");
+}
