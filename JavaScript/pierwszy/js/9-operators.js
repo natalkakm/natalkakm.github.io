@@ -28,3 +28,5 @@ if ( !(("2" !==2) && (8 < 4))) {
 let wynikLogiczny = (3>5) ? "prawda" : "falsz";
 
 console.log(wynikLogiczny);
+
+//cos tu jest nie tak bo ten plik niszzy mi kompa
