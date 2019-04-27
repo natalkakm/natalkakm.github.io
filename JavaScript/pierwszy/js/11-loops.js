@@ -44,3 +44,18 @@ for (let value of iterable) {
     value += 1;
     console.log(value);
 }
+
+let it = 10;
+while ( it < 10 ) {
+    console.log(it);
+    it++;
+}
+
+// petla do while
+
+let iter = 20;
+do {
+    console.log(iter);
+    iter++;
+    console.log(iter);
+} while ( iter < 10 )
