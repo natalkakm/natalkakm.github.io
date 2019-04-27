@@ -8,6 +8,9 @@ const zrobZakupy = (zaIle) =>{
     return ileZostaloNaKoncie;
 }
 
+const zaplacPodatek = (kwota) => {
+    
+}
 console.log(kontoLukasza)
 
 console.log(zrobZakupy(500000));

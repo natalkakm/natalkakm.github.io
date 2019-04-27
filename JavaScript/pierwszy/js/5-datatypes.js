@@ -36,5 +36,7 @@ console.log(niezdefiniowanaZmienna *2);
 console.log(nullowaZmienna *2);
 
 let nazwisko = "nazwisko";
-let imieStudenta = `Michał ${nazwisko}`; //znaki specjalne poprzedzamy \ zeby nie było błędu
+let imieStudenta = `Michał ${nazwisko}`; //znaki specjalne poprzedzamy \ zeby nie było błędu, a gdy uywamy ` to mozemy wstawic funkcję w stringa
 console.log(imieStudenta)
+
+let letBol = true; //typ boolean
