@@ -20,4 +20,12 @@ console.log(imiona.length); //długość tablicy
 let imionaStr = imiona.join(); //domyslny separator to ",", mozemy tez go zdefiniowac w nawiasach (";")
 console.log(imionaStr);
 
+imiona.reverse(); //podaje odwrotną kolejność
+console.log(imiona);
+
+imiona.unshift('Zenek');
+
+imiona.sort(); //sortuje
+console.log(imiona);
+
 imiona.push('Kaja');
