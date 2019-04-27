@@ -34,3 +34,14 @@ let jsonOsoby = {
         }
     ]
 }
+ console.log(jsonOsoby);
+
+ 
+ jsonOsoby.osoby.forEach( (osoba) => {
+    console.log( "Imie: " + imie + " ma kolor oczu " + wzrost);
+    console.log(osoba.oczy);
+} );
+
+for (let osoba of jsonOsoby.osoby) {
+    console.log(osoba.oczy);
+}
