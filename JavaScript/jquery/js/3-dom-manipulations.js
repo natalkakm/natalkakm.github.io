@@ -30,8 +30,15 @@ let naglowek2 = $('#naglowek-2');
 //     'font-size': '2em', 
 //     'color': 'yellow'});
 
-let pierwszyParagraf = $('.par').eq(0); //konkretny element
-console.log(pierwszyParagraf);
+// let pierwszyParagraf = $('.par').eq(0); //konkretny element
+// console.log(pierwszyParagraf);
 
-pierwszyParagraf.addClass('red');
-pierwszyParagraf.removeClass('red');
+// pierwszyParagraf.addClass('red');
+// pierwszyParagraf.removeClass('red');
+
+
+$('input#input-1').val('Jan Kowalski');
+
+$('input#input-1').change(function(){
+    console.log($(this).val());
+});
