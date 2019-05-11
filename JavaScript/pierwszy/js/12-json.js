@@ -38,10 +38,11 @@ let jsonOsoby = {
 
  
  jsonOsoby.osoby.forEach( (osoba) => {
-    console.log( "Imie: " + imie + " ma kolor oczu " + wzrost);
+    console.log( "Imie: " + osoba.imie + " ma kolor oczu " + osoba.wzrost);
     console.log(osoba.oczy);
 } );
 
 for (let osoba of jsonOsoby.osoby) {
     console.log(osoba.oczy);
 }
+
