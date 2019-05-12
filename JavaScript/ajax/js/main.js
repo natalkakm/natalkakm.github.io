@@ -40,6 +40,9 @@ const ajax = (method, url) => {
         if (httpReq.readyState === 4 && httpReq.status === 200) {
             //wrzucamy dane do zmiennej
             let response = httpReq.responseText;
+
+            //parsujemy JSON stringa do tablicy z obiektami
+            response = JSON.parse(response);
             console.log(response);
 
             //zerujemy połączenie, czyli rozłączamy się z serwerem
@@ -51,4 +54,8 @@ const ajax = (method, url) => {
     httpReq.send();
 }
 
-ajax('GET', 'https://jsonplaceholder.typicode.com/users');
+
+// odswiezanie danych
+// setInterval(() => {
+    ajax('GET', 'https://jsonplaceholder.typicode.com/users');
+// }, 3000);
