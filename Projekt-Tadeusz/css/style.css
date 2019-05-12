@@ -1,0 +1,155 @@
+*{
+    box-sizing:border-box;
+    }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    }
+
+a{
+    text-decoration: none;
+    }
+
+#header{
+    background-color: WHITE;
+    height: 80vh; 
+    }
+
+#header .main-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    height: 30vh; 
+
+}
+.header-portrait {
+    height: 250px;
+    padding: 10px;
+    
+}
+
+.header-photos {
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color:blue;
+}
+
+#nav{
+    display:flex;
+    background-color:blue;
+    justify-content:space-around;
+    padding-top:2%;
+    padding-bottom: 2%;
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    
+}
+.menu{
+    color: white;
+    font-style: bold;
+}
+
+
+
+.button, [type="submit"]{
+    background-color:transparent;
+    border: 2px solid navy;
+    color:black;
+    padding: 1%;
+}
+
+.button:hover, [type="submit"]:hover{
+    background-color: navy;
+    color:white;
+}
+
+
+#ja{
+    border-radius: 100%;
+    width:20%;
+}
+
+
+#o-sprawie{
+    padding-bottom:3%;
+    background-color:rgba(236, 235, 235, 0.24);
+
+}
+.o-sprawie{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    align-items:center;
+}
+
+.o-sprawie p{
+    text-align:center;
+    width:40%;
+}
+#portfolio{
+    text-align: center;
+}
+.portfolio{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.portfolio img{
+    width: 150px;
+    transition: 3s linear 0s;
+}
+
+.portfolio img:hover{
+transform: scale(2);
+}
+
+.portfolio div{
+    display: flex;
+    flex-direction: column;
+}
+#kontakt{
+    text-align: center;
+    height: 50%;
+}
+.kontakt{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    margin:10px;
+
+}
+
+.kontekt h2{
+    color: white;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom:50px;
+
+    
+
+}
+#form1{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    width:40%;
+    padding-bottom: 10px;
+}
