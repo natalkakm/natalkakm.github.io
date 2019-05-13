@@ -84,6 +84,7 @@ h1{
 #o-sprawie{
     padding-bottom:3%;
     background-color:rgba(236, 235, 235, 0.24);
+    width: 100vw;
 
 }
 .o-sprawie{
@@ -95,7 +96,7 @@ h1{
 
 .o-sprawie p{
     text-align:center;
-    width:40%;
+    width:80%;
 }
 #portfolio{
     text-align: center;
@@ -109,16 +110,20 @@ h1{
 
 .portfolio img{
     width: 150px;
-    transition: 3s linear 0s;
+    transition: 2s linear 0s;
 }
 
 .portfolio img:hover{
-transform: scale(2);
+transform: scale(3);
 }
 
-.portfolio div{
+
+
+.slides {
     display: flex;
     flex-direction: column;
+    width: 50%;
+
 }
 #kontakt{
     text-align: center;
@@ -134,7 +139,7 @@ transform: scale(2);
 
 }
 
-.kontekt h2{
+.kontakt h2{
     color: white;
 }
 form{
