@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- buttony -->
+
+    <button class="btn btn-promary btn-xl">button 1</button>
+    <button class="btn btn-outline-warning btn-sm">button 2</button>
+    <button class="btn btn-link">button 3</button>
+    <button class="btn btn-danger">button 4</button>
+    <button class="btn">button 5</button>
+<!-- grid wymaga odpowiedniej struktury. Zaczynamy od elementu container lub container-fluid, w nim koniecznie umieszczamy element z klasa row i dopiero wtedy mozemy uzywac elementow kolumn z klasami .col-*
+jesli nie zachowamy tej struktury siatka nam sie rozjedzie
+nie modyfikujemy tez samej siatki rzeczami typu margin, padding itd., bo nam się rozjedzie. Lepiej rzeczy w srodku-->
+
+<div class="container">
+    <div class="row">
+        <div class="item col-lg-4 col-md-6 col-sm-2 col-6 text-center text-capitalize">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempore molestiae error cupiditate, sint id voluptatem impedit consequuntur ducimus natus quasi molestias fugiat perspiciatis praesentium excepturi accusamus laudantium ipsam laboriosam.
+        </div>
+
+        <!-- 
+            >992 px układ 3 kol 12/4 (lg)
+            >768 && <992 uklas 2 kol 12/6 (md)
+            >576 && < 768 uklad 12/2 (sm)
+            <576 12/6 (brak prefixu)
+         -->
+        <div class="item col-lg-4 col-md-6 text-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe recusandae possimus est deserunt voluptatibus molestiae fuga perferendis at accusantium sint. Vero maxime officia magnam suscipit ratione ab, id quaerat! Molestiae.
+        </div>
+        <div class="item col-lg-4 col-md-12 text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et rem corrupti repellat natus nihil consequuntur aut fuga! Quas facere illo eligendi itaque tenetur tempora quo nemo ea quidem nisi?
+        </div>
+    </div>
+</div>
+
+<!-- /grid -->
+<!-- mamy 2 klasy i zadnych innych: -->
+    <!-- <div class="container"></div>
+    <div class="container-fluid"></div> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+</html>
