@@ -1,0 +1,50 @@
+
+/* nav */
+#main-nav {
+    background-color: #444;
+    position: sticky;
+    font-style: initial;
+}
+
+#main-nav .navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-item{
+    color:white;
+}
+
+.nav-item .nav-link{
+    color: white;
+}
+
+
+/* header */
+
+#header-tlo {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/form-background.jpg');
+    background-size: 100%;
+}
+
+button {
+    background-color: #e38f42;
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#form-header {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+}
+
+#form {
+    background-color: rgba(0,0,0,0.3);
+}
