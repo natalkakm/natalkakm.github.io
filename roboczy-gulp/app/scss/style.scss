@@ -1,0 +1,15 @@
+@import 'zmienne';
+@import 'mixins';
+@import 'layouts/general';
+
+/*ten pojdzie do css*/
+
+@import 'components/form';
+
+
+//ten komentarz nie pojdzie do css
+
+
+//zagniezdzanie
+
+//mozna jeszcze minifikować plik w gulfie, zeby było jeszcze lzej
