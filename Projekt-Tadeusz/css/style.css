@@ -1,3 +1,5 @@
+/*generalne ustawienia strony */
+
 *{
     box-sizing:border-box;
     }
@@ -12,8 +14,10 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
     }
 
+    /* nagłówek */
 #header{
     background-color: WHITE;
     height: 80vh; 
@@ -32,6 +36,7 @@ a{
 .header-portrait {
     height: 250px;
     padding: 10px;
+    border-radius: 100%;
     
 }
 
@@ -44,6 +49,7 @@ h1{
     color:blue;
 }
 
+/* menu */
 #nav{
     display:flex;
     background-color:blue;
@@ -60,8 +66,98 @@ h1{
     font-style: bold;
 }
 
+/* główny tekst */
 
 
+#o-sprawie{
+    padding-top:5%;
+    padding-bottom:3%;
+    background-color:rgba(236, 235, 235, 0.24);
+    width: 100vw;
+    
+
+}
+ .o-sprawie{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    align-items:center;
+} 
+
+.o-sprawie-naglowek {
+    text-align: center;
+}
+
+.o-sprawie p{
+    width:80%;
+}
+
+.portrait-text{
+    width: 30%;
+}
+
+#portrait-text-wenancjusz {
+    float: left;
+}
+
+#portrait-text-andrzej {
+    float: right;
+}
+
+
+
+
+#dowody{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/* galeria */
+
+
+.carousel {
+    width: 80%;
+    height: 100%;
+
+}
+
+.sr-only {
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    width: 600 px;
+    text-align: center;
+}
+
+.carousel-caption {
+    color: white;
+    background-color:lightblue;
+    width: 100px;
+    height: 60px;
+    border-radius: 45%;
+    justify-self: center;
+
+}
+
+/* kontakt */
 .button, [type="submit"]{
     background-color:transparent;
     border: 2px solid navy;
@@ -74,57 +170,6 @@ h1{
     color:white;
 }
 
-
-#ja{
-    border-radius: 100%;
-    width:20%;
-}
-
-
-#o-sprawie{
-    padding-bottom:3%;
-    background-color:rgba(236, 235, 235, 0.24);
-    width: 100vw;
-
-}
-.o-sprawie{
-    display:flex;
-    justify-content: space-around;
-    flex-direction:column;
-    align-items:center;
-}
-
-.o-sprawie p{
-    text-align:center;
-    width:80%;
-}
-#portfolio{
-    text-align: center;
-}
-.portfolio{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    justify-content:center;
-}
-
-.portfolio img{
-    width: 150px;
-    transition: 2s linear 0s;
-}
-
-.portfolio img:hover{
-transform: scale(3);
-}
-
-
-
-.slides {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-
-}
 #kontakt{
     text-align: center;
     height: 50%;
