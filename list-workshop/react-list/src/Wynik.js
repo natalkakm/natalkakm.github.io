@@ -12,6 +12,14 @@ class Wynik extends Component{
             users: []
         }
     }
+    removeUser = (id, name) => {
+        let users = this.state.users;
+        users = users.filter(currentUser => {
+            if (currentUser.id !== id) return currentUser;
+        });
+
+        this.setState({users: users});
+    }
 
     onInputChange = (event) => {
         this.setState({userName: event.target.value});
@@ -25,7 +33,8 @@ class Wynik extends Component{
         }
         this.setState(prevState => {
             return({
-                users: prevState.users.concat(this.state.userName)
+                users: prevState.users.concat(user),
+                userName: ''
             }
             );
         });
@@ -44,7 +53,9 @@ render(){
     />
 <button onClick = {this.addNewUser}>
 Dodaj </button>
-<List users={this.state.users}/>
+<List 
+users={this.state.users}
+removeUser={this.removeUser}/>
 </div>
     );
 }
