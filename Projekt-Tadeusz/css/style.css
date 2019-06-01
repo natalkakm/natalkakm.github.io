@@ -16,11 +16,13 @@ a{
     text-decoration: none;
     color: white;
     }
-
+p {
+    padding: 15px;
+}
     /* nagłówek */
 #header{
     background-color: WHITE;
-    height: 80vh; 
+    margin: 40px;
     }
 
 #header .main-header-content {
@@ -28,15 +30,12 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    height: 30vh; 
 
 }
 .header-portrait {
     height: 250px;
-    padding: 10px;
     border-radius: 100%;
+    margin: 40px;
     
 }
 
@@ -46,19 +45,25 @@ a{
 }
 
 h1{
-    color:blue;
+    color:lightsteelblue;
+    width: 60%;
+    text-align: center;
 }
+
+
+
 
 /* menu */
 #nav{
     display:flex;
-    background-color:blue;
+    background-color:lightsteelblue;
     justify-content:space-around;
     padding-top:2%;
     padding-bottom: 2%;
     list-style-type: none;
     position: sticky;
     top: 0;
+    z-index: 2;
     
 }
 .menu{
@@ -86,6 +91,7 @@ h1{
 
 .o-sprawie-naglowek {
     text-align: center;
+    width: 80%;
 }
 
 .o-sprawie p{
@@ -93,15 +99,38 @@ h1{
 }
 
 .portrait-text{
-    width: 30%;
+    margin: 20px;
+    height: 400px;
+    width:400px;
+}
+
+.naglowki-o {
+    background-color: lightsteelblue;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.wenancjusz-tekst {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 80%;
+    position: top;
+}
+
+.andrzej-tekst {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 80%;
 }
 
 #portrait-text-wenancjusz {
-    float: left;
+    
 }
 
 #portrait-text-andrzej {
-    float: right;
 }
 
 
@@ -112,7 +141,6 @@ h1{
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    height: 100vh;
 }
 
 
@@ -122,8 +150,10 @@ h1{
 
 .carousel {
     width: 80%;
-    height: 100%;
+}
 
+.carousel-item {
+    z-index: -1;
 }
 
 .sr-only {
@@ -134,35 +164,54 @@ h1{
     background-color: black;
     padding: 15px;
     border-radius: 100%;
+    z-index: 0;
 }
 
 .carousel-control-next-icon {
     background-color: black;
     padding: 15px;
     border-radius: 100%;
+    z-index: 0;
+}
+
+.sr-only {
+    color: black;
 }
 
 .carousel-item {
     width: 600 px;
     text-align: center;
+    
 }
 
 .carousel-caption {
-    color: white;
+    color: black;
     background-color:lightblue;
-    width: 100px;
-    height: 60px;
-    border-radius: 45%;
-    justify-self: center;
+    width: 80px;
+    height: 12px;
+    border-radius: 10%;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0px;
+    left:48%;
+
 
 }
 
 /* kontakt */
+
+form {
+    width: 40%;
+    height: 50%;
+}
 .button, [type="submit"]{
     background-color:transparent;
     border: 2px solid navy;
-    color:black;
+    color: navy;
+    background-color:white;
     padding: 1%;
+    margin-top: 10px;
 }
 
 .button:hover, [type="submit"]:hover{
@@ -172,14 +221,15 @@ h1{
 
 #kontakt{
     text-align: center;
-    height: 50%;
+    /* height: 50vh; */
 }
 .kontakt{
+    height: 100%;
     display:flex;
     justify-content:center;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    background-color: lightsteelblue;
     margin:10px;
 
 }
@@ -193,13 +243,38 @@ form{
     text-align: center;
     padding-bottom:50px;
 
-    
-
 }
 #form1{
     display:flex;
     justify-content: space-between;
     flex-direction:row;
-    width:40%;
+    width:100%;
     padding-bottom: 10px;
+}
+
+
+
+.kontakt form textarea {
+	flex-basis: 100%;
+	margin-bottom: 15px;
+	padding: 15px;
+	height: 100px;
+}
+
+.form-input {
+    width:49%;
+}
+
+#submit {
+position: relative;
+    left: 40%;
+    width: 20%;
+}
+#dowody p {
+    width: 80%;
+    padding: 10px;
+}
+
+#kontakt-h2 {
+    padding-top: 20px;
 }
