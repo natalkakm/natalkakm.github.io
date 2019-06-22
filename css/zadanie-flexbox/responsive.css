@@ -1,0 +1,59 @@
+@media (min-width:768px) and (max-width:992px) { 
+    
+    #left {
+        order: 2;
+        width: 100%;
+        display: block;
+        align-self: flex-end;
+    }
+
+    #container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 800px;
+        display: flex;
+        align-items: normal;
+        width: 100%;
+     }
+
+     #center {
+        display: inline-block;
+        height: 400px;
+        width: 75%;
+    
+    }
+
+}
+
+
+@media (max-width:768px) { 
+    #container {
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+        align-items: normal;
+        width: 100%;
+     }
+    
+    #left {
+        order: 0;
+        width: 100%;
+        display: block;
+        align-self: flex-end;
+    }
+
+     #center {
+        order: -1;
+        display: inline-block;
+        height: 400px;
+        width: 100%;
+    
+    }
+
+    #right {
+        order: 1;
+        width: 100%;
+    }
+    
+
+}
